@@ -1,0 +1,9 @@
+@import "../valo/valo";
+
+@include valo;
+
+@mixin theme {
+  .v-window-outerheader {
+    background-color: #4444ff;
+  }
+}
